@@ -19,6 +19,16 @@
 	--color-background:#eee;
 }
 
+header {
+	background-color: black;
+	height: 100px;
+}
+
+header img {
+	width: 25px;
+	height: auto;
+}
+
 
 
 
