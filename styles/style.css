@@ -18,17 +18,33 @@
 	--color-text:#111;
 	--color-background:#eee;
 	--color-buttons: blue;
+	--color-box: lightgrey;
 }
 
-header {
-	background-color: black;
-	height: 100px;
-}
-
-
-
-
-
+section:nth-of-type(4) article a {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-decoration: none;
+	color: var(--color-text);
+	background: var(--color-background);
+	padding: 1em;
+  }
+  
+  section:nth-of-type(4) article h2 {
+	font-size: 2em;   /* grote titel */
+	margin: 0.2em 0;
+  }
+  
+  section:nth-of-type(4) article p {
+	margin: 0;
+	font-size: 0.9em; /* iets kleiner dan de basis */
+  }
+  
+  section:nth-of-type(4) article img {
+	max-width: 18em;  /* schaalbare breedte */
+	height: auto;
+  }
 
 /****************/
 /* JOUW STYLING */
